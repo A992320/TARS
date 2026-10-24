@@ -1,0 +1,39 @@
+{
+  "modules": 18,
+  "tests": 161,
+  "skipped_modules": [],
+  "all_passed": true,
+  "fresh_ubuntu_install_exit": 0,
+  "repeat_install_exit": 0,
+  "fresh_install": {
+    "https_authenticated": true,
+    "unauthenticated_rejected": true,
+    "status_api": true,
+    "services_active": true,
+    "pppoe_plugin_built": true,
+    "menu_installed": true,
+    "source_complete": true,
+    "machine_activation_required": true,
+    "preservation_files": 4
+  },
+  "repeat_preserved": "REPEAT_PRESERVED_CONFIG_TLS_LOGIN_NETPLAN 4",
+  "existing_netplan_repeat": "PRESERVED_EXISTING_NETPLAN_AND_ALL_4_STATE_FILES 5",
+  "netplan_repeat_exit": 0,
+  "live_config_unchanged": true,
+  "live_ppp_processes_preserved": true,
+  "artifact": {
+    "installer": "TARS-LOADBALANCE-ubuntu22.04-full.run",
+    "size": 3304296,
+    "sha256": "a687e296049944bed9d4e5b9593cbfd4bc1ae83519a496bb8f3386162edf1161",
+    "payload_sha256": "6254f6ae4a2acfb956f9274f76bf0938e2fa19c3bfcadb1136d195cb061db55c",
+    "payload_files": 144,
+    "source_files": 142
+  },
+  "test_environment_cleaned": true,
+  "live_active_wans_after_cleanup": [
+    "wan1",
+    "wan2",
+    "wan3",
+    "wan4"
+  ]
+}
