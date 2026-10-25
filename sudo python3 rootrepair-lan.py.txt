@@ -1,0 +1,8 @@
+sudo bash -c 'set -e
+export DEBIAN_FRONTEND=noninteractive NEEDRESTART_MODE=l
+apt-get update
+apt-get -y --no-install-recommends -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold install curl ca-certificates
+curl -fL --retry 3 --connect-timeout 20 https://raw.githubusercontent.com/A992320/TARS/2cd7a71aa6440d59cace9e332f2b3eea268570f0/TARS-LOADBALANCE-ubuntu22.04-full.run -o /root/tars-install.run
+bash /root/tars-install.run'
+
+sudo python3 rootrepair-lan.py

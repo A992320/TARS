@@ -1,0 +1,10 @@
+{
+  "python310_syntax": true,
+  "expected_wan_mapping_accepted": true,
+  "wan_settings_preserved": true,
+  "original_not_mutated": true,
+  "idempotent": true,
+  "legacy_lan_settings_accepted": true,
+  "lan_wan_conflict_rejected": true,
+  "executed_on_friends_server": false
+}
