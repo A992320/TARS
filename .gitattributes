@@ -1,0 +1,4 @@
+TARS-*.run -text
+TARS-*.run.sha256 text eol=lf
+TARS-*.run.json text eol=lf
+TARS-*.run.validation.json text eol=lf

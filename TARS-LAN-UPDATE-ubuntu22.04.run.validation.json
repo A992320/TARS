@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-25",
+  "ubuntu": "22.04",
+  "portable_initial_lan_tests": 6,
+  "lan_api_and_netplan_tests": 10,
+  "installer_entry_tests": 15,
+  "update_tests": 8,
+  "single_installer_tests": 8,
+  "isolated_dhcp_protocol_tests": 2,
+  "hardened_dhcp_unit_passed": true,
+  "desktop_mobile_lan_passed": true,
+  "protected_resources_and_login_preserved": true,
+  "wan_core_identical_before_update": true,
+  "ppp_pids_unchanged": true,
+  "ppp_count": 4,
+  "current_host_updated": true,
+  "current_lan": {
+    "iface": "enp0s9",
+    "ip": "192.168.10.1",
+    "dhcp_active": true,
+    "pool_start": "192.168.10.100",
+    "pool_end": "192.168.10.199"
+  },
+  "private_host_configuration_included": false,
+  "friend_host_deployed": false,
+  "current_host_backup": "/var/backups/tars/before-portable-lan-20261025T140754Z",
+  "actual_initial_lan_cli_passed": true
+}
