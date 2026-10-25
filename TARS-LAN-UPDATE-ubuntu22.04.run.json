@@ -1,8 +1,8 @@
 {
   "installer": "TARS-LAN-UPDATE-ubuntu22.04.run",
-  "size": 3720044,
-  "sha256": "d44b634399ef31add96b5a37fdd52ac8a3c0c3b3c05231252a80a9bb06667749",
-  "payload_sha256": "dcc73e90683d008c98901dcb74883de8caafdb386fa416e8db15f5feda9c749d",
-  "payload_files": 180,
-  "source_files": 178
+  "size": 3905721,
+  "sha256": "484d0839599c81c48e72a9613eb8d2120adbccc62126a847baf69053a355a6e2",
+  "payload_sha256": "a78bb4edba876530363c9c561cb6c1140fc63c587fbf93d4bbaa6660d598ce0a",
+  "payload_files": 194,
+  "source_files": 192
 }
